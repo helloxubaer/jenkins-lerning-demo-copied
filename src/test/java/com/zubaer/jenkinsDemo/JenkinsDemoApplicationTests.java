@@ -14,6 +14,7 @@ class JenkinsDemoApplicationTests {
 	@Test
 	void contextLoads() {
 		logger.info("Test case is executing....");
+		logger.info("Second test is executing....");
 		assertEquals(true, true); // just a demo, need to check if executed by jenkins
 	}
 
